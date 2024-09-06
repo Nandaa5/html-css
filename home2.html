@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do list</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" width="57" alt="imagem da logo">
+        <button><a href="landing.html">Sair</a></button>
+        <h1>Check list</h1>
+    </header>
+
+    <main>
+        <div class="todo-container">
+            <h2>Adicionar Tarefa</h2>
+            <form id="todo-form">
+                <div class="inputBox">
+                    <input type="text" id="task-input" placeholder="Adicionar nova tarefa" required>
+                    <input class="pequeno" type="submit" value="Adicionar">
+                </div>
+            </form>
+
+            <div id="todo-list"></div>
+            <div class="btn">
+                <input type="button" value="Salvar" onclick="enviar()">
+                <input type="button" value="Limpar" onclick="limparTarefas()">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="confg">
+            <p>Contato: <a href="mailto:todolist@cefetmg.br">todolist@cefetmg.br</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
