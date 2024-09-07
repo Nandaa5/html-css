@@ -1,2 +1,3 @@
 # html-css
- ProjetodePW
+ Projeto de PW
+ Esse projeto tem como objetivo fazer um simples aplicativo de lista de tarefas. 
